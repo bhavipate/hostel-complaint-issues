@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Changed font for better readability */
+    font-size: 120%;
+    background-image: url("https://img.freepik.com/free-vector/cheap-inn-affordable-hotel-background_23-2148516797.jpg"); /* Updated image link */
+    background-size: cover; /* Ensure the background covers the entire viewport */
+    background-position: center; /* Center the background image */
+    background-color: #cccccc;
+}
+
+.header {
+    width: 40%; /* Increased width for better visibility */
+    margin: 50px auto;
+    color: white;
+    background: rgba(95, 158, 160, 0.9); /* Semi-transparent background for better contrast */
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Added shadow for depth */
+}
+
+form, .content {
+    width: 40%; /* Increased width for better visibility */
+    margin: 20px auto; /* Added margin for spacing */
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+}
+
+.input-group {
+    margin: 10px 0;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px; /* Adjusted margin for spacing */
+}
+
+.input-group input {
+    height: 40px; /* Increased height for better usability */
+    width: calc(100% - 20px); /* Full width minus padding */
+    padding: 5px; 
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 16px; /* Increased font size for better readability */
+    color: white;
+    background: #5F9EA0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.btn:hover {
+    background-color: #4682B4; /* Darker shade on hover */
+}
+
+.error {
+    width: calc(100% - 20px); 
+    margin: 10px auto; 
+    padding: 10px; 
+    border: 1px solid #a94442; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px; 
+}
+
+.success {
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+}
